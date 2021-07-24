@@ -1,0 +1,45 @@
+.head img{
+    width: 305px;
+    height: 205px;
+
+}
+.head{
+color: white;
+background-color: blueviolet;
+padding-right: 5px;
+}
+.head button{
+    background-color: coral;
+    border-radius: 5px;
+}
+.middle .players img{
+    width: 250px;
+    height: 105px;
+}
+.players{
+    display:grid;
+    grid-template-columns: (3,1fr);
+    grid-column: 24px;
+}
+.last img{
+    width:250px;
+    height:200px;
+}
+.logo img{
+    width: 250px;
+    height:40px;
+    align-items: center;
+}
+.icon img{
+    width:24px;
+    height: 20px;
+    align-items: center;
+}
+.foot{
+    size: 50px;
+    color:black;
+    text-align: center;
+}
+.top{
+    flex-wrap: wrap;
+}
